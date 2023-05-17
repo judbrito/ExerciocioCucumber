@@ -1,0 +1,109 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-17T21:05:10.992Z",
+        "line": 6,
+        "name": "Logando na pagina Web",
+        "description": "",
+        "id": ";logando-na-pagina-web",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat execucaoSteps.TravelPhpSteps.que_preencha_os_valores_no_site(TravelPhpSteps.java:13)\r\n\tat ✽.que preencha os valores no site(file:src/main/resources/feature/siteTravelPhp.feature:7)\r\n",
+              "duration": 6504600,
+              "status": "pending"
+            },
+            "line": 7,
+            "name": "que preencha os valores no site",
+            "match": {
+              "location": "TravelPhpSteps.que_preencha_os_valores_no_site()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1956900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "digitar \"First Name\", \"Last Name\", \"Business Name\", e \"Email\";",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"First Name\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Last Name\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"Business Name\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Email\"",
+                  "offset": 54
+                }
+              ],
+              "location": "TravelPhpSteps.digitar_e(String,String,String,String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1238500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "somar para o campo de validação",
+            "match": {
+              "location": "TravelPhpSteps.somar_para_o_campo_de_validação()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 892500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "executar o botão \"SUBMIT\";",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SUBMIT\"",
+                  "offset": 17
+                }
+              ],
+              "location": "TravelPhpSteps.executar_o_botão(String)"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 1242300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "validar a mensagem de sucesso para requisição",
+            "match": {
+              "location": "TravelPhpSteps.validarAMensagemDeSucessoParaRequisição()"
+            },
+            "keyword": "E "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "Teste de Requisição e demonstração do site",
+    "id": "",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/main/resources/feature/siteTravelPhp.feature",
+    "tags": []
+  }
+]

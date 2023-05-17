@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PhpRunnerTest" project="DesafioCucumberTravelPHP" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="execucaoRunner.PhpRunnerTest" time="0.036" displayname="PhpRunnerTest" uniqueid="[engine:junit-vintage]/[runner:execucaoRunner.PhpRunnerTest]">
+    <testsuite name="Funcionalidade:" time="0.036" uniqueid="[engine:junit-vintage]/[runner:execucaoRunner.PhpRunnerTest]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAA1ZmlsZTpzcmMvbWFpbi9yZXNvdXJjZXMvZmVhdHVyZS9zaXRlVHJhdmVsUGhwLmZlYXR1cmV4]">
+      <testcase name="EMPTY_NAME" classname="EMPTY_NAME" time="0.036" uniqueid="[engine:junit-vintage]/[runner:execucaoRunner.PhpRunnerTest]/[test:rO0ABXNyAClpby5jdWN1bWJlci5qdW5pdC5GZWF0dXJlUnVubmVyJEZlYXR1cmVJZAAAAAAAAAABAgABTAADdXJpdAAOTGphdmEvbmV0L1VSSTt4cHNyAAxqYXZhLm5ldC5VUkmsAXguQ55JqwMAAUwABnN0cmluZ3QAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAA1ZmlsZTpzcmMvbWFpbi9yZXNvdXJjZXMvZmVhdHVyZS9zaXRlVHJhdmVsUGhwLmZlYXR1cmV4]/[test:rO0ABXNyAChpby5jdWN1bWJlci5qdW5pdC5QaWNrbGVSdW5uZXJzJFBpY2tsZUlkAAAAAAAAAAECAAJJAApwaWNrbGVMaW5lTAADdXJpdAASTGphdmEvbGFuZy9TdHJpbmc7eHAAAAAGdAA1ZmlsZTpzcmMvbWFpbi9yZXNvdXJjZXMvZmVhdHVyZS9zaXRlVHJhdmVsUGhwLmZlYXR1cmU=]">
+        <skipped>cucumber.api.PendingException: TODO: implement me&#13;
+	at execucaoSteps.TravelPhpSteps.que_preencha_os_valores_no_site(TravelPhpSteps.java:13)&#13;
+	at ✽.que preencha os valores no site(file:src/main/resources/feature/siteTravelPhp.feature:7)&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

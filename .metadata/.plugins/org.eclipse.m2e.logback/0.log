@@ -1,0 +1,269 @@
+2023-05-17 15:53:11,844 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-17 15:56:39,726 [Worker-15: Creating project "DesafioCucumberTravelPHP"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com:DesafioCucumberTravelPHP:0.0.1-SNAPSHOT @ C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\pom.xml.
+2023-05-17 15:56:40,303 [Worker-15: Creating project "DesafioCucumberTravelPHP"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DesafioCucumberTravelPHP/src/main/java
+2023-05-17 15:56:40,305 [Worker-15: Creating project "DesafioCucumberTravelPHP"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DesafioCucumberTravelPHP/src/main/resources
+2023-05-17 15:56:40,325 [Worker-15: Creating project "DesafioCucumberTravelPHP"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DesafioCucumberTravelPHP/src/test/java
+2023-05-17 15:56:40,326 [Worker-15: Creating project "DesafioCucumberTravelPHP"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DesafioCucumberTravelPHP/src/test/resources
+2023-05-17 15:56:41,598 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 15:56:41,615 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-17 15:56:41,621 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 15:56:41,628 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-17 16:32:04,222 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-05-17 16:34:44,085 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:34:44,096 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-17 16:34:44,100 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:34:44,104 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:36:36,149 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com:DesafioCucumberTravelPHP:0.0.1-SNAPSHOT @ C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\pom.xml.
+2023-05-17 16:36:36,797 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:36:36,802 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-17 16:36:36,806 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:36:36,811 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:36:38,081 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:36:38,087 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-17 16:36:38,090 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:36:38,095 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:38:00,653 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-05-17 16:38:00,953 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com:DesafioCucumberTravelPHP:0.0.1-SNAPSHOT @ C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\pom.xml.
+2023-05-17 16:38:01,384 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DesafioCucumberTravelPHP/src/main/java
+2023-05-17 16:38:01,384 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DesafioCucumberTravelPHP/src/main/resources
+2023-05-17 16:38:01,385 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DesafioCucumberTravelPHP/src/test/java
+2023-05-17 16:38:01,592 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2023-05-17 16:38:01,778 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:38:01,783 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-17 16:38:01,787 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:38:01,791 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:38:32,714 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:38:32,722 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-17 16:38:32,725 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:38:32,728 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:39:14,181 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:39:14,185 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:39:14,194 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:39:14,197 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:43:06,400 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:43:06,405 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:43:06,412 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:43:06,415 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:43:15,106 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:43:15,112 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-17 16:43:15,114 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:43:15,119 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:43:22,973 [Worker-24: Build project DesafioCucumberTravelPHP] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:43:22,979 [Worker-24: Build project DesafioCucumberTravelPHP] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:43:22,982 [Worker-24: Build project DesafioCucumberTravelPHP] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:43:22,986 [Worker-24: Build project DesafioCucumberTravelPHP] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:43:41,448 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:43:41,449 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:43:41,451 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:43:41,452 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:45:43,147 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:45:43,154 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:45:43,156 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:45:43,160 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:48:06,304 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:48:06,308 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:48:06,310 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:48:06,314 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:52:19,823 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:52:19,827 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:52:19,829 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:52:19,832 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:52:22,659 [Worker-35: Launching siteTravelPhp.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:52:22,665 [Worker-35: Launching siteTravelPhp.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:52:22,673 [Worker-35: Launching siteTravelPhp.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:52:22,677 [Worker-35: Launching siteTravelPhp.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:52:22,808 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:52:22,816 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:52:22,819 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:52:22,824 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:52:36,011 [Worker-33: Launching siteTravelPhp.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:52:36,015 [Worker-33: Launching siteTravelPhp.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:52:36,019 [Worker-33: Launching siteTravelPhp.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:52:36,023 [Worker-33: Launching siteTravelPhp.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:52:36,201 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:52:36,211 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:52:36,214 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:52:36,221 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:53:06,469 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:53:06,473 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:53:06,475 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:53:06,478 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:56:24,968 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:56:24,974 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:56:24,978 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:56:24,983 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:56:26,077 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:56:26,080 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:56:26,082 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:56:26,087 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:56:33,475 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:56:33,479 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:56:33,481 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:56:33,484 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:57:47,013 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:57:47,018 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:57:47,019 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:57:47,024 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:58:06,692 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:58:06,696 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:58:06,698 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:58:06,701 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:58:36,556 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:58:36,561 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:58:36,563 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:58:36,566 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:58:41,105 [Worker-40: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:58:41,111 [Worker-40: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:58:41,118 [Worker-40: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:58:41,124 [Worker-40: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:58:41,300 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:58:41,304 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:58:41,307 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:58:41,310 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 16:58:51,485 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:58:51,489 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 16:58:51,491 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 16:58:51,495 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:03:04,888 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:03:04,895 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:03:04,897 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:03:04,901 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:03:06,904 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:03:06,909 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:03:06,910 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:03:06,914 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:03:47,911 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:03:47,918 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:03:47,924 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:03:47,931 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:08:07,139 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:08:07,145 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:08:07,146 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:08:07,150 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:11:14,599 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:11:14,605 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:11:14,607 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:11:14,610 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:11:19,423 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:11:19,427 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:11:19,430 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:11:19,434 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:12:09,216 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:12:09,222 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:12:09,224 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:12:09,229 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:12:16,427 [Worker-44: Launching PhpRunnerTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:12:16,432 [Worker-44: Launching PhpRunnerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:12:16,434 [Worker-44: Launching PhpRunnerTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:12:16,439 [Worker-44: Launching PhpRunnerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:12:16,567 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:12:16,572 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:12:16,574 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:12:16,577 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:12:38,678 [Worker-48: Launching PhpRunnerTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:12:38,682 [Worker-48: Launching PhpRunnerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:12:38,685 [Worker-48: Launching PhpRunnerTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:12:38,689 [Worker-48: Launching PhpRunnerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:12:38,970 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:12:38,974 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:12:38,976 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:12:38,980 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:13:07,409 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:13:07,413 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:13:07,414 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:13:07,418 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:13:43,309 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:13:43,314 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:13:43,317 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:13:43,321 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:13:48,132 [Worker-46: Launching PhpRunnerTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:13:48,137 [Worker-46: Launching PhpRunnerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:13:48,139 [Worker-46: Launching PhpRunnerTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:13:48,142 [Worker-46: Launching PhpRunnerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:13:48,326 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:13:48,332 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:13:48,334 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:13:48,338 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:14:53,119 [Worker-44: Launching PhpRunnerTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:14:53,124 [Worker-44: Launching PhpRunnerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:14:53,125 [Worker-44: Launching PhpRunnerTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:14:53,130 [Worker-44: Launching PhpRunnerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:14:53,402 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:14:53,406 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:14:53,408 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:14:53,411 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:15:35,502 [Worker-43: Launching Rerun execucaoRunner.PhpRunnerTest.Funcionalidade:] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:15:35,507 [Worker-43: Launching Rerun execucaoRunner.PhpRunnerTest.Funcionalidade:] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:15:35,515 [Worker-43: Launching Rerun execucaoRunner.PhpRunnerTest.Funcionalidade:] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:15:35,519 [Worker-43: Launching Rerun execucaoRunner.PhpRunnerTest.Funcionalidade:] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:15:35,665 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:15:35,673 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:15:35,675 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:15:35,680 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:15:58,560 [Worker-43: Launching PhpRunnerTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:15:58,566 [Worker-43: Launching PhpRunnerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:15:58,567 [Worker-43: Launching PhpRunnerTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:15:58,571 [Worker-43: Launching PhpRunnerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:15:58,753 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:15:58,757 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:15:58,760 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:15:58,765 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:17:16,989 [Worker-46: Launching Rerun PhpRunnerTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:17:16,994 [Worker-46: Launching Rerun PhpRunnerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:17:17,000 [Worker-46: Launching Rerun PhpRunnerTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:17:17,004 [Worker-46: Launching Rerun PhpRunnerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:17:17,138 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:17:17,144 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:17:17,145 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:17:17,149 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:17:29,591 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:17:29,595 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:17:29,597 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:17:29,600 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:18:07,641 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:18:07,645 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:18:07,647 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:18:07,651 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:23:07,908 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:23:07,913 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:23:07,914 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:23:07,918 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:28:08,126 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:28:08,130 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:28:08,131 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:28:08,134 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:33:08,404 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:33:08,408 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:33:08,410 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:33:08,413 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:38:08,627 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:38:08,631 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:38:08,633 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:38:08,637 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:43:08,897 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:43:08,902 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:43:08,903 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:43:08,907 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:48:09,169 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:48:09,174 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:48:09,175 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:48:09,179 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:53:09,397 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:53:09,403 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:53:09,405 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:53:09,409 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 17:58:09,622 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:58:09,627 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 17:58:09,629 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 17:58:09,634 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 18:03:09,896 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 18:03:09,900 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 18:03:09,901 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 18:03:09,905 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 18:05:09,428 [Worker-65: Launching Rerun PhpRunnerTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 18:05:09,435 [Worker-65: Launching Rerun PhpRunnerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 18:05:09,438 [Worker-65: Launching Rerun PhpRunnerTest] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 18:05:09,443 [Worker-65: Launching Rerun PhpRunnerTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JudrianideBrito\Desktop\PROJETO BRITO\CucumberPhpTravel\DesafioCucumberTravelPHP\src\test\resources
+2023-05-17 18:05:09,822 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-17 18:05:09,826 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-17 18:05:09,828 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
