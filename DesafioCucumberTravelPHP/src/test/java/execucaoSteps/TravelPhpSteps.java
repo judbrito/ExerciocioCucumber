@@ -1,5 +1,7 @@
 package execucaoSteps;
 
+import static execucaoDriver.Driver.ativarNavegador;
+
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Então;
@@ -7,10 +9,10 @@ import io.cucumber.java.pt.Quando;
 
 public class TravelPhpSteps {
 
-	@Dado("que preencha os valores no site")
-	public void que_preencha_os_valores_no_site() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new cucumber.api.PendingException();
+	@Dado("que acesse o site")
+	public void queAcesseOSite() {
+		ativarNavegador();
+
 	}
 
 	@Quando("digitar {string}, {string}, {string}, e {string};")

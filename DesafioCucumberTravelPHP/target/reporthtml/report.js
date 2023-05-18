@@ -10,15 +10,14 @@ formatter.scenario({
   "keyword": "Cenário"
 });
 formatter.step({
-  "name": "que preencha os valores no site",
+  "name": "que acesse o site",
   "keyword": "Dado "
 });
 formatter.match({
-  "location": "TravelPhpSteps.que_preencha_os_valores_no_site()"
+  "location": "TravelPhpSteps.queAcesseOSite()"
 });
 formatter.result({
-  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat execucaoSteps.TravelPhpSteps.que_preencha_os_valores_no_site(TravelPhpSteps.java:13)\r\n\tat ✽.que preencha os valores no site(file:src/main/resources/feature/siteTravelPhp.feature:7)\r\n",
-  "status": "pending"
+  "status": "passed"
 });
 formatter.step({
   "name": "digitar \"First Name\", \"Last Name\", \"Business Name\", e \"Email\";",
@@ -28,7 +27,8 @@ formatter.match({
   "location": "TravelPhpSteps.digitar_e(String,String,String,String)"
 });
 formatter.result({
-  "status": "skipped"
+  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat execucaoSteps.TravelPhpSteps.digitar_e(TravelPhpSteps.java:21)\r\n\tat ✽.digitar \"First Name\", \"Last Name\", \"Business Name\", e \"Email\";(file:src/main/resources/feature/siteTravelPhp.feature:8)\r\n",
+  "status": "pending"
 });
 formatter.step({
   "name": "somar para o campo de validação",
