@@ -2,3 +2,17 @@
 1684353466896	Infer generic type arguments
 1684353521039	Move compilation unit
 1684354423133	Rename package 'ExecucaoSteps'
+1684420264998	Move package
+1684420360768	Copy package
+1684420470169	Rename package 'execucaoUtils'
+1684420477223	Move compilation unit
+1684420494849	Rename package 'execucaoUtils.excel'
+1684420503571	Delete element
+1684420516374	Move compilation unit
+1684420610304	Rename type 'DriverChrome'
+1684420621420	Rename type 'Excel'
+1684420659544	Delete element
+1684421047446	Move compilation unit
+1684421065798	Rename type 'DriverUtils'
+1684421079328	Rename package 'execucaodriver'
+1684421135481	Delete element
