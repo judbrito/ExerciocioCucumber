@@ -20,44 +20,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "digitar \"First Name\", \"Last Name\", \"Business Name\", e \"Email\";",
+  "name": "extrair as informações do excel  first name, last name, business name, email",
   "keyword": "Quando "
 });
-formatter.match({
-  "location": "TravelPhpSteps.digitar_e(String,String,String,String)"
-});
+formatter.match({});
 formatter.result({
-  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat execucaoSteps.TravelPhpSteps.digitar_e(TravelPhpSteps.java:21)\r\n\tat ✽.digitar \"First Name\", \"Last Name\", \"Business Name\", e \"Email\";(file:src/main/resources/feature/siteTravelPhp.feature:8)\r\n",
-  "status": "pending"
-});
-formatter.step({
-  "name": "somar para o campo de validação",
-  "keyword": "E "
-});
-formatter.match({
-  "location": "TravelPhpSteps.somar_para_o_campo_de_validação()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "executar o botão \"SUBMIT\";",
-  "keyword": "Então "
-});
-formatter.match({
-  "location": "TravelPhpSteps.executar_o_botão(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "validar a mensagem de sucesso para requisição",
-  "keyword": "E "
-});
-formatter.match({
-  "location": "TravelPhpSteps.validarAMensagemDeSucessoParaRequisição()"
-});
-formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
 });

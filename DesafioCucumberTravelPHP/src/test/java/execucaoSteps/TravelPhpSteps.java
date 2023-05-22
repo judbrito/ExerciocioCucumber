@@ -1,6 +1,7 @@
 package execucaoSteps;
 
 import static execucaoDriver.Driver.ativarNavegador;
+import static execucaoUtils.ExcelUtils.dadosDoSite;
 
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
@@ -15,16 +16,15 @@ public class TravelPhpSteps {
 
 	}
 
-	@Quando("digitar {string}, {string}, {string}, e {string};")
-	public void digitar_e(String string, String string2, String string3, String string4) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new cucumber.api.PendingException();
+	@Quando("extrair as informações do excel  first name, last name, business name, email")
+	public void extrairAsInformaçõesDoExcelFirstNameLastNameBusinessNameEmail() {
+
+		dadosDoSite();
 	}
 
 	@Quando("somar para o campo de validação")
 	public void somar_para_o_campo_de_validação() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new cucumber.api.PendingException();
+
 	}
 
 	@Entao("executar o botão {string};")

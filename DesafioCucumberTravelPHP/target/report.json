@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2023-05-18T18:15:56.350Z",
+        "start_timestamp": "2023-05-22T20:07:37.917Z",
         "line": 6,
         "name": "Logando na pagina Web",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4695184600,
+              "duration": 4679321300,
               "status": "passed"
             },
             "line": 7,
@@ -25,76 +25,12 @@
           },
           {
             "result": {
-              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat execucaoSteps.TravelPhpSteps.digitar_e(TravelPhpSteps.java:21)\r\n\tat ✽.digitar \"First Name\", \"Last Name\", \"Business Name\", e \"Email\";(file:src/main/resources/feature/siteTravelPhp.feature:8)\r\n",
-              "duration": 14319900,
-              "status": "pending"
+              "status": "undefined"
             },
             "line": 8,
-            "name": "digitar \"First Name\", \"Last Name\", \"Business Name\", e \"Email\";",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"First Name\"",
-                  "offset": 8
-                },
-                {
-                  "val": "\"Last Name\"",
-                  "offset": 22
-                },
-                {
-                  "val": "\"Business Name\"",
-                  "offset": 35
-                },
-                {
-                  "val": "\"Email\"",
-                  "offset": 54
-                }
-              ],
-              "location": "TravelPhpSteps.digitar_e(String,String,String,String)"
-            },
+            "name": "extrair as informações do excel  first name, last name, business name, email",
+            "match": {},
             "keyword": "Quando "
-          },
-          {
-            "result": {
-              "duration": 4741900,
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "somar para o campo de validação",
-            "match": {
-              "location": "TravelPhpSteps.somar_para_o_campo_de_validação()"
-            },
-            "keyword": "E "
-          },
-          {
-            "result": {
-              "duration": 1567000,
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "executar o botão \"SUBMIT\";",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"SUBMIT\"",
-                  "offset": 17
-                }
-              ],
-              "location": "TravelPhpSteps.executar_o_botão(String)"
-            },
-            "keyword": "Então "
-          },
-          {
-            "result": {
-              "duration": 1708500,
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "validar a mensagem de sucesso para requisição",
-            "match": {
-              "location": "TravelPhpSteps.validarAMensagemDeSucessoParaRequisição()"
-            },
-            "keyword": "E "
           }
         ]
       }
