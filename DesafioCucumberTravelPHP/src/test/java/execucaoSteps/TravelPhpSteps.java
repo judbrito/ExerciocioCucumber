@@ -1,7 +1,10 @@
 package execucaoSteps;
 
+import static excucaoWeb.ValidacaoWeb.botaoSubmit;
+import static excucaoWeb.ValidacaoWeb.mensagemValidar;
+import static excucaoWeb.ValidacaoWeb.validar;
 import static execucaoDriver.Driver.ativarNavegador;
-import static execucaoUtils.ExcelUtils.dadosDoSite;
+import static execucaoPage.PageUtils.digitar;
 
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
@@ -19,24 +22,22 @@ public class TravelPhpSteps {
 	@Quando("extrair as informações do excel  first name, last name, business name, email")
 	public void extrairAsInformaçõesDoExcelFirstNameLastNameBusinessNameEmail() {
 
-		dadosDoSite();
+		digitar();
 	}
 
 	@Quando("somar para o campo de validação")
 	public void somar_para_o_campo_de_validação() {
-
+		validar();
 	}
 
 	@Entao("executar o botão {string};")
 	public void executar_o_botão(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new cucumber.api.PendingException();
+		botaoSubmit();
 	}
 
 	@Então("validar a mensagem de sucesso para requisição")
 	public void validarAMensagemDeSucessoParaRequisição() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new cucumber.api.PendingException();
+		mensagemValidar();
 	}
 
 }

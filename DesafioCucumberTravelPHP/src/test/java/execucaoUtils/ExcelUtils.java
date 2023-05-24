@@ -1,62 +1,48 @@
 package execucaoUtils;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelUtils {
-	private String nomeDoArquivo;
+	private Workbook arquivo;
 	private Sheet planilha;
 
-	public String getNomeDoArquivo() {
-		return nomeDoArquivo;
+	public ExcelUtils(Workbook arquivos, Sheet planilhas) {
+		this.arquivo = arquivos;
+		this.planilha = planilhas;
 	}
 
-	public void setNomeDoArquivo(String nomeDoArquivo) {
-		this.nomeDoArquivo = nomeDoArquivo;
-	}
-
-	public void lerArquivoExcel() {
-		try (FileInputStream arquivo = new FileInputStream(nomeDoArquivo);
-				Workbook workbook = new XSSFWorkbook(arquivo)) {
-
-			planilha = workbook.getSheet("massaDados");
-
-			if (planilha != null) {
-				int primeiraLinha = planilha.getFirstRowNum() + 1;
-
-				for (int i = primeiraLinha; i <= planilha.getLastRowNum(); i++) {
-					Row linha = planilha.getRow(i);
-
-					if (linha != null) {
-						for (int j = linha.getFirstCellNum(); j < linha.getLastCellNum(); j++) {
-							Cell celula = linha.getCell(j, Row.MissingCellPolicy.RETURN_BLANK_AS_NULL);
-
-							if (celula != null) {
-								String valorCelula = celula.toString();
-								System.out.println("Valor da célula (" + i + ", " + j + "): " + valorCelula);
-								System.out.println("------------------------------------");
-
-							}
-						}
-					}
-				}
-			} else {
-				System.out.println("A planilha 'massaDados' não foi encontrada.");
-			}
+	public ExcelUtils(String arquivoName, String planilhaName) {
+		try {
+			FileInputStream fileInputStream = new FileInputStream(new File(arquivoName));
+			arquivo = WorkbookFactory.create(fileInputStream);
+			planilha = arquivo.getSheet(planilhaName);
 		} catch (IOException e) {
-			e.printStackTrace();
+			throw new RuntimeException("Falha ao localizar ", e);
 		}
 	}
 
-	public static void dadosDoSite() {
-		ExcelUtils excelUtils = new ExcelUtils();
-		excelUtils.setNomeDoArquivo("./src/main/resources/massaDadosExcel/Login.xlsx");
-		excelUtils.lerArquivoExcel();
+	public String getCellData(int linha, int coluna) {
+		Row linhas = planilha.getRow(linha);
+		Cell colunas = linhas.getCell(coluna);
+
+		DataFormatter formatter = new DataFormatter();
+		return formatter.formatCellValue(colunas);
+	}
+
+	public void close() {
+		try {
+			arquivo.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }
