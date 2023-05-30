@@ -1,7 +1,5 @@
 package execucaoUtils;
 
-import static execucaoDriver.Driver.ativarNavegador;
-
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -11,12 +9,13 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
+import excucaoWeb.DriverWeb;
 import io.cucumber.core.api.Scenario;
 
 public class ImagensUtils {
 	public void imagens(Scenario scenario) {
 
-		File arquivo = ((TakesScreenshot) ativarNavegador()).getScreenshotAs(OutputType.FILE);
+		File arquivo = ((TakesScreenshot) DriverWeb.ativarNavegador()).getScreenshotAs(OutputType.FILE);
 		String imagens = new SimpleDateFormat("dd-MM-yyyy-HHmmss").format(new Date());
 
 		String mensagem;

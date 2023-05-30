@@ -1,45 +1,107 @@
 package execucaoPage;
 
-import static execucaoDriver.Driver.ativarNavegador;
+import static excucaoWeb.DriverWeb.ativarNavegador;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
-import execucaoUtils.ExcelUtils;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PageUtils {
 
-	public static void digitar() {
+	public PageUtils() {
 
-		ExcelUtils excelUtils = new ExcelUtils("./src/main/resources/MassaDadosExcel/Login.xlsx", "massaDados");
+		PageFactory.initElements(ativarNavegador(), this);
+	}
 
-		String firstName = excelUtils.getCellData(1, 0);
-		String lastName = excelUtils.getCellData(1, 1);
-		String businessName = excelUtils.getCellData(1, 2);
-		String email = excelUtils.getCellData(1, 3);
+	@FindBy(name = "first_name")
+	private WebElement firstName;
 
-		System.out.println("Dados da célula: " + firstName);
+	@FindBy(name = "last_name")
+	private WebElement lastName;
 
-		WebElement name = ativarNavegador().findElement(By.name("first_name"));
-		name.sendKeys(firstName);
+	@FindBy(name = "business_name")
+	private WebElement businessName;
 
-		System.out.println("O valor do nome é " + firstName);
+	@FindBy(name = "email")
+	private WebElement email;
 
-		WebElement sobreNome = ativarNavegador().findElement(By.name("last_name"));
-		sobreNome.sendKeys(lastName);
+	// Interação humana
 
-		System.out.println("O valor do sobrenome é " + lastName);
+	@FindBy(xpath = "//span[@id='numb1']")
+	private WebElement selecaoNumeroUm;
 
-		WebElement empresa = ativarNavegador().findElement(By.name("business_name"));
-		empresa.sendKeys(businessName);
+	@FindBy(xpath = "//span[@id='numb2']")
+	private WebElement selecaoNumeroDois;
 
-		System.out.println("O valor do nome é " + businessName);
+	@FindBy(xpath = "//input[@id='number']")
+	private WebElement resultado;
 
-		WebElement emails = ativarNavegador().findElement(By.name("email"));
-		emails.sendKeys(email);
+	// Botão Submit
 
-		System.out.println("Dados da célula : " + email);
+	@FindBy(xpath = "//button[@id='demo']")
+	private WebElement submit;
 
+	// Validação Mensagem de sucesso
+
+	@FindBy(xpath = "//button[@id='demo']")
+	private WebElement tempoEspera;
+
+	@FindBy(xpath = "//h2/strong[text()=' Thank you!']")
+	private WebElement assercao;
+
+	// metodos do selenium
+
+	public void getFirstName(String usuarioNome) {
+		firstName.sendKeys(usuarioNome);
+
+	}
+
+	public void getLastName(String usuarioSobreNome) {
+		lastName.sendKeys(usuarioSobreNome);
+
+	}
+
+	public void getBusinessName(String businessNames) {
+		businessName.sendKeys(businessNames);
+
+	}
+
+	public void getEmail(String emails) {
+		email.sendKeys(emails);
+
+	}
+
+	public WebElement getSelecaoNumeroUm() {
+		return selecaoNumeroUm;
+
+	}
+
+	public WebElement getSelecaoNumeroDois() {
+		return selecaoNumeroDois;
+
+	}
+
+	public WebElement getResultado() {
+		return resultado;
+	}
+
+	public WebElement getSubmit() {
+		return submit;
+	}
+
+	public WebElement getTempoEspera() {
+		WebDriverWait wait = new WebDriverWait(ativarNavegador(), 5);
+		wait.until(ExpectedConditions.visibilityOf(assercao));
+		return tempoEspera;
+	}
+
+	public String getAssercao() {
+		WebDriverWait wait = new WebDriverWait(ativarNavegador(), 5);
+		wait.until(ExpectedConditions.visibilityOf(assercao));
+
+		return assercao.getText();
 	}
 
 }

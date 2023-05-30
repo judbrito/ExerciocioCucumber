@@ -14,6 +14,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 public class ExcelUtils {
 	private Workbook arquivo;
 	private Sheet planilha;
+	private FileInputStream fileInputStream;
 
 	public ExcelUtils(Workbook arquivos, Sheet planilhas) {
 		this.arquivo = arquivos;
@@ -22,7 +23,7 @@ public class ExcelUtils {
 
 	public ExcelUtils(String arquivoName, String planilhaName) {
 		try {
-			FileInputStream fileInputStream = new FileInputStream(new File(arquivoName));
+			fileInputStream = new FileInputStream(new File(arquivoName));
 			arquivo = WorkbookFactory.create(fileInputStream);
 			planilha = arquivo.getSheet(planilhaName);
 		} catch (IOException e) {
@@ -38,9 +39,14 @@ public class ExcelUtils {
 		return formatter.formatCellValue(colunas);
 	}
 
+	public int getRowCount() {
+		return planilha.getLastRowNum() + 1;
+	}
+
 	public void close() {
 		try {
 			arquivo.close();
+			fileInputStream.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

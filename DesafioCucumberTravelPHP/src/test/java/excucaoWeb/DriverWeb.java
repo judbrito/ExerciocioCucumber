@@ -1,11 +1,11 @@
-package execucaoDriver;
+package excucaoWeb;
 
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Driver {
+public class DriverWeb {
 	private static WebDriver driver;
 
 	public static WebDriver ativarNavegador() {
@@ -13,6 +13,7 @@ public class Driver {
 
 		if (driver == null) {
 			driver = new ChromeDriver();
+			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			driver.get("https://phptravels.com/demo/");
 		}
