@@ -1,8 +1,10 @@
 package execucaoSteps;
 
-import static excucaoWeb.DriverWeb.ativarNavegador;
+import static execucaoPagina.DriverPagina.ativarNavegador;
 
-import excucaoWeb.Formulario;
+import java.io.IOException;
+
+import execucaoPagina.FormularioPagina;
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Entao;
 import io.cucumber.java.pt.Então;
@@ -10,7 +12,7 @@ import io.cucumber.java.pt.Quando;
 
 public class TravelPhpSteps {
 
-	private Formulario execucao = new Formulario();
+	private FormularioPagina execucao = new FormularioPagina();
 
 	@Dado("que acesse o site")
 	public void queAcesseOSite() {
@@ -19,7 +21,7 @@ public class TravelPhpSteps {
 	}
 
 	@Quando("extrair as informações do excel  first name, last name, business name, email")
-	public void extrairAsInformaçõesDoExcelFirstNameLastNameBusinessNameEmail() {
+	public void extrairAsInformaçõesDoExcelFirstNameLastNameBusinessNameEmail() throws IOException {
 		execucao.digitarDados();
 
 	}
@@ -37,7 +39,7 @@ public class TravelPhpSteps {
 	}
 
 	@Então("validar a mensagem de sucesso para requisição")
-	public void validarAMensagemDeSucessoParaRequisição() {
+	public void validarAMensagemDeSucessoParaRequisição() throws InterruptedException {
 		execucao.mensagemValidar();
 
 	}

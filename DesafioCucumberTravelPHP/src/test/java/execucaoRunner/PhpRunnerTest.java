@@ -1,6 +1,6 @@
 package execucaoRunner;
 
-import static excucaoWeb.DriverWeb.ativarNavegador;
+import static execucaoPagina.DriverPagina.ativarNavegador;
 
 import org.junit.AfterClass;
 import org.junit.runner.RunWith;

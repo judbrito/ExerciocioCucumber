@@ -1,16 +1,15 @@
-package execucaoPage;
+package execucaoPagina;
 
-import static excucaoWeb.DriverWeb.ativarNavegador;
+import static execucaoPagina.DriverPagina.ativarNavegador;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class PageUtils {
+public class PageUtil {
 
-	public PageUtils() {
+	public PageUtil() {
 
 		PageFactory.initElements(ativarNavegador(), this);
 	}
@@ -44,62 +43,49 @@ public class PageUtils {
 	private WebElement submit;
 
 	// Validação Mensagem de sucesso
-
-	@FindBy(xpath = "//button[@id='demo']")
-	private WebElement tempoEspera;
-
-	@FindBy(xpath = "//h2/strong[text()=' Thank you!']")
+	@FindBy(how = How.XPATH, using = "//h2/strong[text()=' Thank you!']")
 	private WebElement assercao;
-
 	// metodos do selenium
 
-	public void getFirstName(String usuarioNome) {
+	public void setFirstName(String usuarioNome) {
 		firstName.sendKeys(usuarioNome);
 
 	}
 
-	public void getLastName(String usuarioSobreNome) {
+	public void setLastName(String usuarioSobreNome) {
 		lastName.sendKeys(usuarioSobreNome);
 
 	}
 
-	public void getBusinessName(String businessNames) {
+	public void setBusinessName(String businessNames) {
 		businessName.sendKeys(businessNames);
 
 	}
 
-	public void getEmail(String emails) {
+	public void setEmail(String emails) {
 		email.sendKeys(emails);
 
 	}
 
-	public WebElement getSelecaoNumeroUm() {
+	public WebElement setSelecaoNumeroUm() {
 		return selecaoNumeroUm;
 
 	}
 
-	public WebElement getSelecaoNumeroDois() {
+	public WebElement setSelecaoNumeroDois() {
 		return selecaoNumeroDois;
 
 	}
 
-	public WebElement getResultado() {
+	public WebElement setResultado() {
 		return resultado;
 	}
 
-	public WebElement getSubmit() {
+	public WebElement setSubmit() {
 		return submit;
 	}
 
-	public WebElement getTempoEspera() {
-		WebDriverWait wait = new WebDriverWait(ativarNavegador(), 5);
-		wait.until(ExpectedConditions.visibilityOf(assercao));
-		return tempoEspera;
-	}
-
 	public String getAssercao() {
-		WebDriverWait wait = new WebDriverWait(ativarNavegador(), 5);
-		wait.until(ExpectedConditions.visibilityOf(assercao));
 
 		return assercao.getText();
 	}
